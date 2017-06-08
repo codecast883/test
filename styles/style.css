@@ -1,0 +1,89 @@
+﻿html, body{
+	width: 100%;
+	height: 100%;
+}
+.wrapper{
+/*	min-width: 1110px;
+*/	min-height: 100%;
+	
+	overflow: hidden;
+	position: relative;
+}
+.footer{
+
+	background: #dcdcdc;
+	margin-top: -50px;
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #dcdcdc;
+}
+.empty{
+	height: 50px;
+}
+
+.text-muted{
+	margin-left:500px;
+	padding-top: 20px
+}
+.logo{
+	height:75px;
+	margin-top:-14px;
+	background-color: #e7e7e7;
+}
+.navbar{
+	border-radius:0;
+	margin-bottom:0;
+}
+.navbar-text{
+	font-weight: bold;
+}
+.jumbotron-user{
+	padding:10px;
+}
+/*.thumbnail img{
+	width:200px;
+	height: 300px;
+}
+.thumbnail{
+	width:220px;
+	height: 333px;
+
+}*/
+.addbooks{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px;
+	display: block;
+	
+}
+.nicname{
+	margin-left: 60px;
+	font-weight: bold;
+	color: red;
+}
+#error{
+	float: right;
+}
+.panel-success{
+background-color: #aacea9;
+margin-top: 25px;
+}
+.panel-body{
+	padding: 5px;
+}
+.alert-success{
+	border-color: #5c942c;
+	background-color: #caffb4;
+	width: 800px;
+	margin-left: 250px;
+	margin-top: 40px;
+}
+.alert-dismissable .close{
+	color: #0f6d11;
+}
+.starter-template{
+
+	padding: 30px;
+}
