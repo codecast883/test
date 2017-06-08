@@ -82,15 +82,8 @@ if ($_POST['userId']) {
     } else {
         echo "Скрытых друзей не обнаружено<br><br><br>";
     }
-    // $photoWallCount = count($allWallPhoto);
-    // echo $allWallPhoto;
-    // echo $photoWallCount;
 
     echo "<pre>";
-    // print_r(getPhoto($userId,'wall'));
-    // print_r(allLikePhoto($userId,365964823));
-    // print_r($generalArray);
-
     echo "</pre>";
 }
 
