@@ -1,13 +1,7 @@
 <?php
 ob_start();
-
-
 session_start();
-// require 'config.php';
-// if (!isset($_COOKIE['token'])) {
-// 	header('Location: http://'. $_SERVER['HTTP_HOST']);
-// 	exit;
-// }
+
 
 ?>
 <!doctype html>
@@ -57,14 +51,7 @@ require 'lib.php';
 
 
     <?php
-    // echo "<pre>";
-    // print_r(getPhotoId($userId));
-    // print_r(allLikeUser($groupNameId,165));
-    //  print_r(getdate($dateTimeStamp1));
-    // print_r($oResponce->error->error_code);
-    // print_r($_SESSION['result_like']);
-    // print_r(count(getFriends('416334309')->response));
-    // echo "</pre>";
+ 
     ?>
 </div>
 </body>
